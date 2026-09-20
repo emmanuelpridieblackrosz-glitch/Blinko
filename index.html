@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top 10 Shonen Manga</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+    }
+    header {
+      padding: 25px 15px;
+      text-align: center;
+      background: #1b1b1b;
+    }
+    header h1 { margin: 0; color: #ffd000; }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    .manga {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      background: #1d1d1d;
+      margin-bottom: 18px;
+      padding: 12px;
+      border-radius: 14px;
+    }
+    .manga img {
+      width: 110px;
+      height: 155px;
+      object-fit: cover;
+      border-radius: 8px;
+      flex-shrink: 0;
+    }
+    .info h2 {
+      margin: 0 0 8px;
+      color: #ffd000;
+    }
+    .info p { margin: 5px 0; color: #ddd; }
+    .rank {
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff;
+      width: 35px;
+      text-align: center;
+    }
+    @media (max-width: 500px) {
+      .manga img { width: 90px; height: 130px; }
+      .info h2 { font-size: 18px; }
+      .info p { font-size: 13px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🔥 TOP 10 MANGAS SHONEN 🔥</h1>
+  <p>Les grands classiques et incontournables</p>
+</header>
+
+<div class="container">
+
+  <div class="manga">
+    <div class="rank">1</div>
+    <img src="dragon-ball.jpg" alt="Dragon Ball">
+    <div class="info">
+      <h2>Dragon Ball</h2>
+      <p>Akira Toriyama</p>
+      <p>Les aventures de Son Goku et de ses amis.</p>
+    </div>
+  </div>
+
+  <div class="manga">
+    <div class="rank">2</div>
+    <img src="one-piece.jpg" alt="One Piece">
+    <div class="info">
+      <h2>One Piece</h2>
+      <p>Eiichiro Oda</p>
+      <p>Luffy et son équipage partent à la recherche du One Piece.</p>
+    </div>
+  </div>
+
+  <div class="manga">
+    <div class="rank">3</div>
+    <img src="naruto.jpg" alt="Naruto">
+    <div class="info">
+      <h2>Naruto</h2>
+      <p>Masashi Kishimoto</p>
+      <p>L'histoire de Naruto et de son parcours pour devenir Hokage.</p>
+    </div>
+  </div>
+
+  <!-- Ajoute ici les mangas 4 à 10 -->
+
+</div>
+</body>
+</html>
